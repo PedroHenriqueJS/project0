@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <link rel="stylesheet" href="styles/search_style.css">
+    <link rel="stylesheet" href="styles/images_search.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="img/google_logo.svg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Search</a>
+        <a href="advanced_search.html">Advanced Search</a>
+    </nav>
+    <div class="container">
+        <div class="images-title">
+            <div class="title">
+                <h1 style="color: #4285f4;">G</h1>
+                <h1 style="color: #e84234;">o</h1>
+                <h1 style="color: #fabc03;">o</h1>
+                <h1 style="color: #4285f4;">g</h1>
+                <h1 style="color: #34a853;">l</h1>
+                <h1 style="color: #e84234; rotate: -20deg; margin-left: -3px;">e</h1>
+            </div>
+            <h3>Images</h3>
+        </div>
+        <form method="get" action="https://www.google.com/images">
+            <div class="input-wrapper">
+                <span class="material-symbols-outlined">search</span>
+                <input autocomplete="off" class="input_search" type="text" name="q">
+            </div>
+            <input class="btn-search" type="submit" value="Google Search">
+        </form>
+    </div>
+</body>
+</html>
