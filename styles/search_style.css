@@ -61,16 +61,17 @@ nav > a:hover{
     box-shadow: 0.1px 0px 8px rgba(0, 0, 0, 0.199);
 
 }
-.input_search{
+.input-search{
     border: none;
     width: 540px;
     font-size: 18px;
 }
-.input_search:focus{
+.input-search:focus{
     outline: none;
 } 
 
 .btn-search{
+    width: 140px;
     margin: 1px 5px;
     font-size: 14px;
     border: 1px solid transparent;
