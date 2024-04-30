@@ -4,18 +4,16 @@
 <ul>
   <li>Tudo está funcional.</li>
   <li>Tudo está dentro do pedido.</li>
-  <li>Tentei o meu melhor para fazer a réplica parecer exatamente igual à original, desde favicon até as cores de cada letra do logo.</li>
+  <li>100% responsivo.</li>
 </ul>
 
-<p>Espero que você goste :)</p>
 
 <strong>English:</strong> 
 
 <p>That's my first Project on the CS50W Harvard Course. Where I had to develop some of Google search tools(Google Search, Google Images and Google Advanced Search).</p>
 <ul>
   <li>Everything is functional.</li>
-  <li>Everything is within the order.</li>
-  <li>I did my best to make the replica look exactly like the original, from the favicon to the colors of each letter in the logo.</li>
+  <li>Everything is ok, as requested.</li>
+  <li>100% responsive.</li>
 </ul>
 
-<p>Hope you Like :)</p>
