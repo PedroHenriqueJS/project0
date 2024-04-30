@@ -11,12 +11,9 @@
 
 body{
     height: 100vh;
+    overflow: hidden;
 }
 
-html {
-    overflow: hidden;
-    overflow: -moz-hidden-unscrollable;
-  }
 h1 {
     font-family: 'ProductSans';
     font-size: 5.5em;
@@ -32,7 +29,7 @@ h3 {
     display: inline-flex;   
 }
 nav {
-    margin: 40px 20px;
+    margin: 20px;
     text-align: end;
 }
 nav > a {
