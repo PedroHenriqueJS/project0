@@ -31,6 +31,7 @@
 
   html {
     overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
   }
 
   .col-25, .col-75, .adv-btn {
