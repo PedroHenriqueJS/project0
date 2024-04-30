@@ -3,37 +3,38 @@
     src: url('../ProductSans-Regular.ttf') format('truetype');
 }
 
-
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-h1{
+
+
+h1 {
     font-family: 'ProductSans';
     font-size: 5.5em;
     user-select: none;
 }
 
-h3{
+h3 {
     font-family: sans-serif;
     font-weight: lighter;
 }
 
-.title{
+.title {
     display: inline-flex;   
 }
-nav{
+nav {
     margin: 20px;
     text-align: end;
 }
-nav > a{
+nav > a {
     font-family: sans-serif;
     color: black;
     text-decoration: none;
     padding: 10px;
 }
 
-nav > a:hover{
+nav > a:hover {
     text-decoration-line: underline;
 }
 
@@ -45,10 +46,10 @@ nav > a:hover{
     text-align: center;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     color: gray;
 }
-.input-wrapper{
+.input-wrapper {
     display: flex;
     align-items: center;
     margin: 20px;
@@ -57,20 +58,20 @@ nav > a:hover{
     padding: 8px 12px ;
     gap: 10px;
 }
-.input-wrapper:hover{
+.input-wrapper:hover {
     box-shadow: 0.1px 0px 8px rgba(0, 0, 0, 0.199);
 
 }
-.input-search{
+.input-search {
     border: none;
     width: 540px;
     font-size: 18px;
 }
-.input-search:focus{
+.input-search:focus {
     outline: none;
 } 
 
-.btn-search{
+.btn-search {
     width: 140px;
     margin: 1px 5px;
     font-size: 14px;
@@ -81,9 +82,10 @@ nav > a:hover{
     
 }
 
-.btn-search:hover{
+.btn-search:hover {
     border: 1px solid gray;
-    transition: 0.2s;
+    transition: 0.1s;
+    cursor: pointer;
 
 }
   

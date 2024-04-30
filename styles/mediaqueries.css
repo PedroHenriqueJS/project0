@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+/*>>> index.html(search)/General MEDIAQUERIES: <<<*/
+
+  .input-search {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+    
+/*>>> images_search.html MEDIAQUERY: <<<*/
+
+  .images-title > .title {
+    margin-bottom: 3px;
+  }
+  .images-title > h3 {
+    width: 315px;
+    font-size: 16px;
+  }
+
+/*>>> advanced_search.html MEDIAQUERY: <<<*/
+
+  a > .title > h1 {
+    font-size: 5.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+/*>>> advanced_search.html MEDIAQUERY: <<<*/
+
+  html {
+    overflow: hidden;
+  }
+
+  .col-25, .col-75, .adv-btn {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .adv-btn {
+      margin-top: 10px;
+  }
+
+/*>>> advanced_search.html MEDIAQUERY: <<<*/
+
+  a > .title > h1 {
+    font-size: 5.5em;
+  }
+
+}
+
+@media screen and (max-width: 365px) {
+/*>>> index.html(search)/General MEDIAQUERIES: <<<*/
+
+  .input-wrapper {
+    width: 250px;
+  }
+
+  h1{
+    font-size: 55px;
+  }
+
+  .input-search {
+    width: 215px;
+  }
+
+/*>>> images_search.html MEDIAQUERY: <<<*/
+  .images-title > .title {
+    margin-bottom: 6px;
+  }
+  .images-title > h3 {
+    width: 258px;
+    font-size: 14px;
+  }
+
+/*>>> advanced_search.html MEDIAQUERY: <<<*/
+
+  a > .title > h1 {
+    font-size: 5.5em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+/*>>> index.html(search)/General MEDIAQUERIES: <<<*/
+
+  .input-wrapper {
+    width: 165px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .btn-search {
+    margin-bottom: 10px;
+  }
+
+  .input-search {
+    width: 130px;
+  }
+
+/*>>> images_search.html MEDIAQUERY: <<<*/
+
+  .images-title > .title {
+    margin-bottom: 8px;
+  }
+  .images-title > h3 {
+    width: 194px;
+    font-size: 12px;
+  }
+
+/*>>> advanced_search.html MEDIAQUERY: <<<*/
+  a > .title > h1 {
+    font-size: 5.5em;
+  }
+}
+
+

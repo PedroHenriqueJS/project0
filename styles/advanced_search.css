@@ -1,68 +1,85 @@
-html{
+html {
     font-family: sans-serif;
-
+    overflow: auto;
 }
 
-header{
-    border-bottom: 2px solid black;
+header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
 }
 
 .header-container {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.title{
+.title {
     font-size: 5px;
     margin: 0px 10px;
 }
 
-h2{
+h2 {
     font-weight: lighter;
     color: #e84234;
-    margin: 50px 45px 20px;
+    margin: 50px 25px 20px;
 }
-h3{
+
+h3 {
+
     margin-bottom: 20px;
 }
-.advanced-search-container{
-    margin: 40px 0px 0px 45px;
-}
 
-.form-container{
-    margin-top: 20px;
-}
-.input-label {
-    display: inline-block; 
-    width: 200px;
-    margin-bottom: 30px;
-    line-height: 32px;
-}
-
-.input-input {
-    display: inline-block;
-    width: 80vw;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    height: 32px;
-    vertical-align: middle;
+    resize: vertical;
 }
 
-.btn{
-    text-align: center;
+input[type=text]:focus {
+    outline: 1px solid #5897fc;
 }
-.btn-advanced-search{
-    font-size: 14px;
-    border: 1px solid transparent;
-    background-color: #8ab4f8;
-    padding: 10px 15px;
-    border-radius: 3px;
-    color: white; 
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    }
+
+.adv-btn {
+    background-color: #5897fc;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-radius: 4px;
+    float: right;
+    border: 1px solid #4e6eff;
+    margin-top: 10px;
 }
-.btn-advanced-search:hover{
-    border: 1px solid #5897fc;
-    background-color: rgb(150, 189, 252);
+
+.adv-btn:hover {
+    border: 1px solid #213cb1;
+    box-shadow: inset 0px -10px 20px 1px rgba(0, 0, 0, 0.096);
+}
+
+.advanced-search-container {
+    margin: 25px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
