@@ -38,11 +38,22 @@
       margin-top: 10px;
   }
 
-/*>>> advanced_search.html MEDIAQUERY: <<<*/
-
   a > .title > h1 {
     font-size: 5.5em;
   }
+
+}
+@media screen and (max-width: 470px){
+
+/*>>> index.html(search)/General MEDIAQUERIES:  <<<*/
+  .input-wrapper{
+    width: 340px;
+  }
+
+  .input-search{
+    width: 200px ;
+  }
+
 
 }
 
@@ -58,9 +69,15 @@
   }
 
   .input-search {
-    width: 110px;
+    width: 135px;
   }
-
+  
+  .input-icon{
+    margin: -7px;
+  }
+  .btn-search {
+    margin-bottom: 10px;
+  }
 
 /*>>> images_search.html MEDIAQUERY: <<<*/
   .images-title > .title {
