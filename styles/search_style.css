@@ -6,9 +6,17 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+}
 
+html {
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+  }
 h1 {
     font-family: 'ProductSans';
     font-size: 5.5em;
@@ -49,6 +57,12 @@ nav > a:hover {
 .material-symbols-outlined {
     color: gray;
 }
+
+.input-icon{
+    border: 1px solid red;
+    width: 30px;
+}
+
 .input-wrapper {
     display: flex;
     align-items: center;

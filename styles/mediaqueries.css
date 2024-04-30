@@ -29,11 +29,6 @@
 @media screen and (max-width: 600px) {
 /*>>> advanced_search.html MEDIAQUERY: <<<*/
 
-  html {
-    overflow: hidden;
-    overflow: -moz-hidden-unscrollable;
-  }
-
   .col-25, .col-75, .adv-btn {
     width: 100%;
     margin-top: 0;
@@ -63,8 +58,9 @@
   }
 
   .input-search {
-    width: 215px;
+    width: 110px;
   }
+
 
 /*>>> images_search.html MEDIAQUERY: <<<*/
   .images-title > .title {
@@ -96,9 +92,13 @@
   .btn-search {
     margin-bottom: 10px;
   }
-
+  
   .input-search {
-    width: 130px;
+    width: 105px;
+  }
+
+  .input-icon{
+    display: none;
   }
 
 /*>>> images_search.html MEDIAQUERY: <<<*/
