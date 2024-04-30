@@ -14,8 +14,9 @@
   .images-title > .title {
     margin-bottom: 3px;
   }
+
   .images-title > h3 {
-    width: 315px;
+    width: 356px;
     font-size: 16px;
   }
 
@@ -46,6 +47,7 @@
 @media screen and (max-width: 470px){
 
 /*>>> index.html(search)/General MEDIAQUERIES:  <<<*/
+
   .input-wrapper{
     width: 340px;
   }
@@ -54,6 +56,12 @@
     width: 200px ;
   }
 
+/*>>> images_search.html MEDIAQUERY: <<<*/
+
+  .images-title > h3 {
+    width: 306px;
+    font-size: 16px;
+  }
 
 }
 
@@ -84,7 +92,7 @@
     margin-bottom: 6px;
   }
   .images-title > h3 {
-    width: 258px;
+    width: 245px;
     font-size: 14px;
   }
 
@@ -124,11 +132,12 @@
     margin-bottom: 8px;
   }
   .images-title > h3 {
-    width: 194px;
+    width: 181px;
     font-size: 12px;
   }
 
 /*>>> advanced_search.html MEDIAQUERY: <<<*/
+
   a > .title > h1 {
     font-size: 5.5em;
   }
