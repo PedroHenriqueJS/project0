@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/search_style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/mediaqueries.css">
-    <script src="scripts/search.js"></script>
+    <script src="scripts/search.js" defer></script>
 </head>
 <body>
     <nav>
@@ -24,15 +24,15 @@
             <h1 style="color: #34a853;">l</h1>
             <h1 style="color: #e84234; rotate: -20deg; margin-left: -3px;">e</h1>
         </div>
-        <form method="get" action="https://www.google.com/search" id="searchForm" onsubmit="return checkInput()">
+        <form method="get" action="https://www.google.com/search" id="searchForm">
             <div class="input-wrapper">
                 <span class="material-symbols-outlined">search</span>
                 <input id="searchInput" class="input-search" type="text" name="q" autocomplete="off">
                 <img class="input-icon" src="img/mic_icon.svg" alt="Search by Voice">
                 <img class="input-icon" src="img/lens_icon.svg" alt="Search by Image">
             </div>
-            <input id="searchBtn" class="btn-search" type="submit" value="Google Search" >
-            <input id="luckyBtn" class="btn-search" type="submit" value="I'm feeling lucky" name="btnI">
+            <input id="searchBtn" class="btn-search" type="submit" value="Google Search" name="btnK" disabled>
+            <input id="luckyBtn" class="btn-search" type="submit" value="I'm feeling lucky" name="btnI" disabled>
         </form>
     </div>
 </body>

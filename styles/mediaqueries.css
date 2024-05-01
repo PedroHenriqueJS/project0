@@ -48,7 +48,7 @@
   }
 
 }
-@media screen and (max-width: 470px){
+@media screen and (max-width: 480px){
 /*>>> index.html(search)/General MEDIAQUERIES:  <<<*/
 
   .input-wrapper{
@@ -68,7 +68,7 @@
 
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 380px) {
 /*>>> index.html(search)/General MEDIAQUERIES: <<<*/
 
   .input-wrapper {
